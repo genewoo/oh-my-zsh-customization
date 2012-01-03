@@ -9,3 +9,7 @@ mvim () {
 #    done
     open -a macvim "$@"
 }
+
+alias la='ls -a'
+alias gsf='git svn fetch'
+alias gsr='git svn rebase'
