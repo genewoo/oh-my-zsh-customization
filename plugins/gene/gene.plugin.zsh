@@ -50,7 +50,7 @@ export MY_SHELL=$DROPBOX_FOLDER/Workspaces/shell
 export GTDLIST=$DROPBOX_FOLDER/PlainText
 SFSF_NOTE=$DROPBOX_FOLDER/SFSF/notes
 export SFSF_NOTE
-export EDITOR=/usr/bin/vim
+export EDITOR=vim
 
 export ORACLE_HOME=/usr/lib/oracle/xe/app/oracle/product/10.2.0/server
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib
