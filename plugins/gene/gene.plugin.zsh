@@ -91,3 +91,6 @@ alias startxe='sudo service oracle-xe start'
 
 export WORKSPACES=$DEV_BASE/workspaces/git/
 export V4=$WORKSPACES/V4
+
+
+#export MY_IP=`$MY_SHELL/getmyip | head -n1`
