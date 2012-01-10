@@ -87,6 +87,7 @@ alias rbr='dev-rb -r'
 alias rb='dev-rb'
 alias rj='dev-jboss'
 alias startxe='sudo service oracle-xe start'
+alias tmuxr='tmux attach || tmux new'
 
 
 export WORKSPACES=$DEV_BASE/workspaces/git/
