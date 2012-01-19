@@ -30,6 +30,11 @@ alias la='ls -a'
 alias gsf='git svn fetch'
 alias gsr='git svn rebase'
 
+function ext-change() {
+  for i in *.$1 ; do mv $i ${i:r}.$2 ; done
+}
+
+autoload -U zmv
 
 function dropboxreset() {
   dropbox stop
@@ -87,11 +92,15 @@ alias rbr='dev-rb -r'
 alias rb='dev-rb'
 alias rj='dev-jboss'
 alias startxe='sudo service oracle-xe start'
-alias tmuxr='tmux attach || tmux new'
+alias tmuxr='tmux attach'
 
 
 export WORKSPACES=$DEV_BASE/workspaces/git/
 export V4=$WORKSPACES/V4
 
+export PATH=$PATH:$ANT_HOME/bin
+
+#Awesome special for Java App
+export AWT_TOOLKIT=MToolkit
 
 #export MY_IP=`$MY_SHELL/getmyip | head -n1`
